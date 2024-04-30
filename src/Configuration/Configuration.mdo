@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb637f86-cb53-4267-b055-eb907b966be1">
+  <name>kassl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека подсистем КА</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e14089ec-fccd-4d85-8d47-965d2513d9b7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3638ee0a-e586-4c0a-8587-eb275ffb7c78"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7a980546-ef4c-4919-b31d-82c178a62889"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c0b7a8e8-493a-4462-9e6e-0fe2d83aaaa4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a153e476-163d-4254-884a-3ddb29d26377"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6b3fe588-5a69-4b21-8a5b-1c66d45976c5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ee1f6772-d4f7-45ec-af95-49000912908f"/>
+  <namePrefix>kassl</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+</mdclass:Configuration>
