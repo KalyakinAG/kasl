@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="217c841d-1f11-42c4-9db5-70f0155e11a5">
+  <producedTypes>
+    <objectType typeId="b1f02483-c754-4807-90ff-4a06bf05fb6e" valueTypeId="73a8f819-100e-4111-8f97-3bbec0f9d70f"/>
+    <managerType typeId="a3a71333-5301-40a6-a1b2-6fde51730b42" valueTypeId="7e0d4917-ee49-4030-b9c4-05a281657869"/>
+  </producedTypes>
+  <name>КонструкторСхемыЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор схемы запроса</value>
+  </synonym>
+  <comment>Автор: Калякин Андрей. Размещено на ресурсе: https://infostart.ru/public/811832/</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторСхемыЗапроса.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6b0c86b4-42b5-4a57-a2ca-e880d4df3f76">
+    <name>ТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4ff8526c-ac5a-4af5-b62b-89cb1af9b3f1">
+    <name>ТекстМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модуля</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d68f8e65-cc82-4822-84be-b09016b43225">
+    <name>ДобавитьКомментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить комментарии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="20eb9c77-9dc0-4ad1-a099-4971e8af3e4b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

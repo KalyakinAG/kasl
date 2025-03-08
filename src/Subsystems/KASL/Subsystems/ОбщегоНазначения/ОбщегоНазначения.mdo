@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="814ebcc0-0cd3-4371-9138-563f88499cc8">
+  <name>ОбщегоНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>КА Общего назначения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбщийКлиент</content>
+  <content>CommonPicture.KASLГраницаСправа</content>
+  <content>CommonPicture.KASLЗаполнитьФорму</content>
+  <content>CommonPicture.KASLСтруктура</content>
+  <content>CommonPicture.KASLСинхронизацияДанныхВыгрузить</content>
+  <content>CommonModule.Общий</content>
+  <content>CommonModule.ОбщийКлиентСервер</content>
+  <content>CommonModule.ОбщийПовтИсп</content>
+  <content>StyleItem.KASLЦветПодписи</content>
+  <content>StyleItem.KASLИтогиФонГруппы</content>
+  <parentSubsystem>Subsystem.KASL</parentSubsystem>
+</mdclass:Subsystem>

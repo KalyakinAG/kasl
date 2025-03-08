@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb637f86-cb53-4267-b055-eb907b966be1">
-  <name>kassl</name>
+  <name>KASL</name>
   <synonym>
     <key>ru</key>
     <value>Библиотека подсистем КА</value>
@@ -8,7 +8,6 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e14089ec-fccd-4d85-8d47-965d2513d9b7"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3638ee0a-e586-4c0a-8587-eb275ffb7c78"/>
@@ -17,9 +16,62 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a153e476-163d-4254-884a-3ddb29d26377"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6b3fe588-5a69-4b21-8a5b-1c66d45976c5"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ee1f6772-d4f7-45ec-af95-49000912908f"/>
-  <namePrefix>kassl</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <namePrefix>KASL</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Калякин Андрей</vendor>
+  <version>1.1.0.1</version>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/profile/16301/</value>
+  </vendorInformationAddress>
+  <subsystems>Subsystem.KASL</subsystems>
+  <styleItems>StyleItem.KASLЦветПодписи</styleItems>
+  <styleItems>StyleItem.KASLИтогиФонГруппы</styleItems>
+  <commonPictures>CommonPicture.KASLГраницаСправа</commonPictures>
+  <commonPictures>CommonPicture.KASLЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.KASLСтруктура</commonPictures>
+  <commonPictures>CommonPicture.KASLСинхронизацияДанныхВыгрузить</commonPictures>
+  <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
+  <commonModules>CommonModule.КонструкторМоделиСостоянияМодель</commonModules>
+  <commonModules>CommonModule.ОбщийКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийПовтИсп</commonModules>
+  <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.РаботаС_ADODB</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиВыбора</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиЗаполнения</commonModules>
+  <commonModules>CommonModule.РаботаСИтератором</commonModules>
+  <commonModules>CommonModule.РаботаСКоллекцией</commonModules>
+  <commonModules>CommonModule.РаботаСМассивом</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюОбъекта</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюОбъектаКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюСостояния</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюФормы</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюФормыКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюФормыКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСоСхемойЗапроса</commonModules>
+  <commonModules>CommonModule.РаботаСОчередью</commonModules>
+  <commonModules>CommonModule.РаботаСМножеством</commonModules>
+  <definedTypes>DefinedType.МетаданныеСОграничениемВыбора</definedTypes>
+  <dataProcessors>DataProcessor.АТДМассив</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторМоделиЗапроса</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторМоделиОтчета</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторМоделиСостояния</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторСхемыЗапроса</dataProcessors>
+  <dataProcessors>DataProcessor.МодельЗапроса</dataProcessors>
+  <dataProcessors>DataProcessor.МодельЗапросаSQL</dataProcessors>
+  <dataProcessors>DataProcessor.МодельМакетаКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельМакетаОбластиКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельНастройкиКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельОформления</dataProcessors>
+  <dataProcessors>DataProcessor.МодельРаспределения</dataProcessors>
+  <dataProcessors>DataProcessor.МодельСостояния</dataProcessors>
+  <dataProcessors>DataProcessor.МодельСхемыКомпоновкиДанных</dataProcessors>
+  <dataProcessors>DataProcessor.МодельТаблицы</dataProcessors>
+  <dataProcessors>DataProcessor.МодельТекста</dataProcessors>
 </mdclass:Configuration>

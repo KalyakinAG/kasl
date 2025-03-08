@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08fb833e-cc68-46fb-aa59-7f7f1e1f716b">
+  <producedTypes>
+    <objectType typeId="fd010043-8dda-4537-82ca-78e2e4c52278" valueTypeId="5ba4f162-32a4-46e9-af40-e94c02bb1faf"/>
+    <managerType typeId="1a4031e5-0a99-4f10-be00-8eee882c6d8c" valueTypeId="b1e24cac-bb39-431c-a0c6-abdc8ff89dcb"/>
+  </producedTypes>
+  <name>КонструкторМоделиРаспределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели распределения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторМоделиРаспределения.Form.Форма</defaultForm>
+  <attributes uuid="aa40da3e-988c-40d1-8d43-4273c33562ea">
+    <name>МодельDSL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель DSL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="163b1066-0389-4d77-8c6e-f01b0c74ac20">
+    <name>ДанныеJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="01aa41d8-9159-4e25-8451-49736ecb4e2a">
+    <producedTypes>
+      <objectType typeId="9a094d3a-162c-445c-a3df-fc603a92f326" valueTypeId="5ff70faf-4d16-4a6b-84a5-5c8aa44f5080"/>
+      <rowType typeId="59d65761-adfd-4a2f-becc-cddfe10c9e44" valueTypeId="6240bb59-0859-4ba8-8009-46127fd7818e"/>
+    </producedTypes>
+    <name>Таблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблицы</value>
+    </synonym>
+    <attributes uuid="0c936a35-f910-4ddb-afd5-89b26fc83727">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8931554f-f1b9-4742-a263-66abfcd01d0c">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b64191c6-64e8-4101-b4c7-bc699d943107">
+    <producedTypes>
+      <objectType typeId="72f0ab35-12b7-4ea2-b21f-978ba71175e9" valueTypeId="5bc08220-40d7-418b-8ceb-2bd42d33afc7"/>
+      <rowType typeId="75560b1d-7563-4d25-aa78-8e8ccdf87337" valueTypeId="b8ee7483-808f-478d-ab5b-48b3083a0850"/>
+    </producedTypes>
+    <name>СтруктураТаблиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура таблиц</value>
+    </synonym>
+    <attributes uuid="b9b3da97-4371-46db-a963-0ed6452b5435">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3a6a765b-e63d-4b8f-8729-384df5473bbe">
+      <name>РольПоля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль поля</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1fb15038-5494-42e6-9579-05c011548fb2">
+      <name>ИмяПоля</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя поля</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a069e138-4167-43e7-b971-d80a8afc68c6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="aae2a63f-0c01-4a38-a9d2-763d3b3e43f6">
+    <name>ОтношениеСДопРесурсами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение с доп ресурсами</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e11088e0-7df6-4888-859f-be4a028da393">
+    <name>РезультатСДопРаспределением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат с доп распределением</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4439bc2a-551a-4a27-879b-a3e9409e661d">
+    <name>РезультатСОграничением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат с ограничением</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="505f6c53-2b69-4170-acba-8c39a8c512e2">
+    <name>СОграничениемБезОтношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>С ограничением без отношения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

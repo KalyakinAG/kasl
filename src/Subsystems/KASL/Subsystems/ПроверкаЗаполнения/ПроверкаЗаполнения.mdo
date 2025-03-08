@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5919db32-60ca-47f0-a263-48c8db782661">
+  <name>ПроверкаЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка заполнения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаСДаннымиЗаполнения</content>
+  <parentSubsystem>Subsystem.KASL</parentSubsystem>
+</mdclass:Subsystem>

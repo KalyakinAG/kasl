@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52b03d24-11ea-4018-a1b9-e9d0c6a158b4">
+  <name>МодельТаблицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель таблицы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.МодельТаблицы</content>
+  <parentSubsystem>Subsystem.KASL.Subsystem.Модели</parentSubsystem>
+</mdclass:Subsystem>

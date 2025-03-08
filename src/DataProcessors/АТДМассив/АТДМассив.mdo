@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e4c1e97-870f-493f-bfcb-36644c7e7dab">
+  <producedTypes>
+    <objectType typeId="e1d049b2-7304-45d0-9dd4-73faf8ef1562" valueTypeId="6ff22d86-c105-4456-bfe2-5587ea0c9b46"/>
+    <managerType typeId="0c8c2541-7e45-4f12-a699-1ad4180cbe07" valueTypeId="83a29816-6b5d-43a8-ac22-a3adfe05c9a8"/>
+  </producedTypes>
+  <name>АТДМассив</name>
+  <synonym>
+    <key>ru</key>
+    <value>Массив</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АТДМассив.Form.Форма</defaultForm>
+  <forms uuid="f69ecffb-a7f9-45c1-a3de-bd4f3e23aefe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

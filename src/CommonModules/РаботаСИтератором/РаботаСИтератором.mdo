@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80139d37-2069-48ea-9e26-2aa43ee0857a">
+  <name>РаботаСИтератором</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с итератором</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

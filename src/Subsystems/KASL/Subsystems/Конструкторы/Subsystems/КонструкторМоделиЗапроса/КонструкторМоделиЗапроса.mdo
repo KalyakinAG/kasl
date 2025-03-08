@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58330f32-5dfe-49d0-bb8b-eefc98daa824">
+  <name>КонструкторМоделиЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели запроса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КонструкторМоделиЗапроса</content>
+  <content>DataProcessor.КонструкторСхемыЗапроса</content>
+  <parentSubsystem>Subsystem.KASL.Subsystem.Конструкторы</parentSubsystem>
+</mdclass:Subsystem>

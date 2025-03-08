@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e6e86f2-a7ca-4d42-8878-eac6276c4b21">
+  <name>КонструкторМоделиРаспределенияМодель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели распределения модель</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

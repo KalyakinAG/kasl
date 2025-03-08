@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddc1da85-066d-426a-adc2-d60b8fe3dde8">
+  <name>МодельЗапросаSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель запроса SQL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.МодельЗапросаSQL</content>
+  <content>CommonModule.РаботаС_ADODB</content>
+  <parentSubsystem>Subsystem.KASL.Subsystem.Модели</parentSubsystem>
+</mdclass:Subsystem>

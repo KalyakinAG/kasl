@@ -1,0 +1,15 @@
+--Конвертирует значение ссылки 1С из бинарного формата в строку
+--0x8DDE000C2989577C11E17D649299C542 -> '9299c542-7d64-11e1-8dde-000c2989577c'
+ALTER FUNCTION [dbo].[_1CBinToHex] (@binGUID BINARY(16))
+RETURNS NCHAR(36)
+BEGIN
+	DECLARE @hexGUID NCHAR(32);
+	SET @hexGUID = SUBSTRING(sys.fn_sqlvarbasetostr(@binGUID), 3, 32);
+	RETURN(
+	  SUBSTRING(@hexGUID, 25, 8) + '-' +
+	  SUBSTRING(@hexGUID, 21, 4) + '-' +
+	  SUBSTRING(@hexGUID, 17, 4) + '-' +
+	  SUBSTRING(@hexGUID, 1, 4) + '-' +
+	  SUBSTRING(@hexGUID, 5, 12)
+	);
+END;

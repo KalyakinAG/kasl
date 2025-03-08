@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfbe2c04-b90b-4fc8-88f9-8a9b889ba68f">
+  <name>РаботаСИтератором</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с итератором</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаСИтератором</content>
+  <parentSubsystem>Subsystem.KASL</parentSubsystem>
+</mdclass:Subsystem>

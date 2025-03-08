@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c34961-24dd-4dfe-88c6-ba1195616227">
+  <name>ВыборДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаСДаннымиВыбора</content>
+  <content>DefinedType.МетаданныеСОграничениемВыбора</content>
+  <parentSubsystem>Subsystem.KASL</parentSubsystem>
+</mdclass:Subsystem>

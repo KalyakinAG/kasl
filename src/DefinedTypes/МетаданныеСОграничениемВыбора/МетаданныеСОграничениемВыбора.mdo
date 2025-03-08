@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afd1c98f-98ec-44a0-a4bf-8b2e4bee5cd7">
+  <producedTypes>
+    <containerType typeId="0ddb650c-8aa3-422f-bcea-be29992714f3" valueTypeId="7c972dbb-8756-45d3-a7b9-eccdfa8ad5c6"/>
+  </producedTypes>
+  <name>МетаданныеСОграничениемВыбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные с ограничением выбора</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

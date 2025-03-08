@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ff5c779-26de-4bed-acee-b9de80d65fec">
+  <producedTypes>
+    <objectType typeId="d9fe2658-a620-48b4-bbda-eaef1d9ab2a2" valueTypeId="fa7d25d5-4e38-4643-b235-2021f41b6b84"/>
+    <managerType typeId="264454f0-4c31-4956-9d40-1b43d369e66c" valueTypeId="97a35124-8a90-4767-8143-79777f44e2f8"/>
+  </producedTypes>
+  <name>МодельЗапросаSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель запроса SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МодельЗапросаSQL.Form.Форма</defaultForm>
+  <attributes uuid="766aa16e-ef9a-48ed-87f4-8500d13c5c28">
+    <name>ТипСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип СУБД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a09de0c-a456-4b1d-b4b0-e7183fe845be">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5741d01-aa83-4e9b-aaf3-63dd32a12693">
+    <name>ИмяБазыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9e08fe2a-2614-4e70-a402-c71db11cd5e7">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e5214e72-b869-4116-ac60-435045a6ec4b">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="64e572a9-4477-4313-a370-a22cee713a48">
+    <name>АутентификацияNTLM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация Windows</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5309b3c9-dea9-4432-89be-a0c2e2612188">
+    <name>СмещениеДат2000</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смещение дат 2000</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="35129d0d-c35d-4332-ab76-052b7a05d02d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="86f25ae8-3b92-4207-9c93-f964776b72f1">
+    <name>Перечисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечисления</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ed4fa934-48b6-4e82-9ca0-0f161ec90b7f">
+    <name>_1CBinToHex</name>
+    <synonym>
+      <key>ru</key>
+      <value>1C BIN to HEX</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="375d5d99-f7d7-44a0-9921-af931418a689">
+    <name>_1CHexToBin</name>
+    <synonym>
+      <key>ru</key>
+      <value>1C HEX to BIN</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

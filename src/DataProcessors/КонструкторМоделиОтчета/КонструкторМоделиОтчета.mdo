@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b477e086-2c29-4c44-a1df-301558b3b9e6">
+  <producedTypes>
+    <objectType typeId="945cbade-9c47-4541-bdd8-0662ccef7869" valueTypeId="0c2adc13-1fdf-44b3-b91c-bf3c4e72ff78"/>
+    <managerType typeId="49e8211e-4b98-4c34-bbf3-0f273bb2bc14" valueTypeId="865a1563-667d-4e72-8b98-60887f442dc7"/>
+  </producedTypes>
+  <name>КонструкторМоделиОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели отчета (Модель отчета)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторМоделиОтчета.Form.Форма</defaultForm>
+  <attributes uuid="3113c8a6-ffc6-41f6-aef0-3de37e29d6b1">
+    <name>ТекстМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="844f66d4-a534-45c6-af14-8ed8ad0973f2">
+    <name>ТекстСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст СКД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d512ac79-b692-4c80-97b7-382977c49aea">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6fe4c76-b373-4d7e-b7c4-a3a81e02bb1a">
+    <name>ТипГенератора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип генератора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36b51689-3da2-49fd-b9d0-3c18938a76a6">
+    <name>РезультатJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4879e592-1317-43da-9930-a63585322262">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="67da476f-274e-4cd2-a451-be309351194e">
+    <name>Схема1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="37e7bded-2ac3-4077-bed8-62bce85e96a5">
+    <name>ДемоОборотноСальдоваяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо оборотно сальдовая ведомость</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e1fb1cfd-9d9f-4923-8e43-1c94b4f35c45">
+    <name>ДемоОтчетПоСчетамНаОплатуГлобальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо отчет по счетам на оплату глобальный</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="1984d4b8-c67c-4495-b1b8-ce79f5ab696a">
+    <name>ДемоВыводДереваЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо вывод дерева значений</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="713237b5-b88f-4e95-9503-61f4d78b106b">
+    <name>ДемоВыводТаблицыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демо вывод таблицы значений</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
