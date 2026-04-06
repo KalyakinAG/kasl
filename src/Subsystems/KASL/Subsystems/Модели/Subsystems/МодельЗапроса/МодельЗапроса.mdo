@@ -7,6 +7,11 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.РаботаСоСхемойЗапроса</content>
+  <content>DataProcessor.МодельЗапроса_1_2</content>
+  <content>CommonModule.РаботаСМодельюЗапроса</content>
   <content>DataProcessor.МодельЗапроса</content>
+  <content>DataProcessor.ТекстЗапросаВМодельЗапроса</content>
+  <content>DataProcessor.ТекстЗапросаВРаботуСМодельюЗапроса</content>
+  <content>DataProcessor.ТекстЗапросаВРаботуСоСхемойЗапроса</content>
   <parentSubsystem>Subsystem.KASL.Subsystem.Модели</parentSubsystem>
 </mdclass:Subsystem>

@@ -7,14 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ОбщийКлиент</content>
-  <content>CommonPicture.KASLГраницаСправа</content>
-  <content>CommonPicture.KASLЗаполнитьФорму</content>
-  <content>CommonPicture.KASLСтруктура</content>
-  <content>CommonPicture.KASLСинхронизацияДанныхВыгрузить</content>
   <content>CommonModule.Общий</content>
   <content>CommonModule.ОбщийКлиентСервер</content>
   <content>CommonModule.ОбщийПовтИсп</content>
-  <content>StyleItem.KASLЦветПодписи</content>
-  <content>StyleItem.KASLИтогиФонГруппы</content>
+  <content>DataProcessor.МодельТекста</content>
   <parentSubsystem>Subsystem.KASL</parentSubsystem>
 </mdclass:Subsystem>

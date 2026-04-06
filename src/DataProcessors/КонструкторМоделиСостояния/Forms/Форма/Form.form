@@ -11,11 +11,6 @@
     <extendedTooltip>
       <name>КомандаТестРасширеннаяПодсказка</name>
       <id>194</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -48,11 +43,6 @@
       <extendedTooltip>
         <name>ЗаголовокВыбранногоОкнаРасширеннаяПодсказка</name>
         <id>124</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -63,11 +53,6 @@
       <contextMenu>
         <name>ЗаголовокВыбранногоОкнаКонтекстноеМеню</name>
         <id>123</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -95,11 +80,6 @@
       <extendedTooltip>
         <name>ФормаКомандаВыбратьОкноРасширеннаяПодсказка</name>
         <id>121</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -128,11 +108,6 @@
       <extendedTooltip>
         <name>ПутьКПроектуРасширеннаяПодсказка</name>
         <id>3</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -143,11 +118,6 @@
       <contextMenu>
         <name>ПутьКПроектуКонтекстноеМеню</name>
         <id>2</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -176,11 +146,6 @@
     <extendedTooltip>
       <name>ГруппаВыбранноеОкноРасширеннаяПодсказка</name>
       <id>126</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -210,67 +175,6 @@
         <items xsi:type="form:FormGroup">
           <name>КоманднаяПанельПараметрыСостояния</name>
           <id>174</id>
-          <items xsi:type="form:Button">
-            <name>КомандаСвязатьПараметры</name>
-            <id>176</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>КомандаСвязатьПараметрыРасширеннаяПодсказка</name>
-              <id>177</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.КомандаСвязатьПараметры</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <check>true</check>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>КомандаНайтиПараметрСостояния</name>
-            <id>178</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>КомандаНайтиПараметрСостоянияРасширеннаяПодсказка</name>
-              <id>179</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.КомандаНайтиПараметрСостояния</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -283,11 +187,6 @@
           <extendedTooltip>
             <name>КоманднаяПанельПараметрыСостоянияРасширеннаяПодсказка</name>
             <id>175</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -328,11 +227,6 @@
               <extendedTooltip>
                 <name>ПараметрыСостоянияНомерСтрокиРасширеннаяПодсказка</name>
                 <id>23</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -343,11 +237,6 @@
               <contextMenu>
                 <name>ПараметрыСостоянияНомерСтрокиКонтекстноеМеню</name>
                 <id>22</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>LabelField</type>
@@ -375,11 +264,6 @@
                 <extendedTooltip>
                   <name>ПараметрыСостоянияИмяРасширеннаяПодсказка</name>
                   <id>26</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -390,11 +274,6 @@
                 <contextMenu>
                   <name>ПараметрыСостоянияИмяКонтекстноеМеню</name>
                   <id>25</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -425,11 +304,6 @@
                 <extendedTooltip>
                   <name>ПараметрыСостоянияПредставлениеРасширеннаяПодсказка</name>
                   <id>173</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -440,11 +314,6 @@
                 <contextMenu>
                   <name>ПараметрыСостоянияПредставлениеКонтекстноеМеню</name>
                   <id>172</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -475,11 +344,6 @@
                 <extendedTooltip>
                   <name>ПараметрыСостоянияПутьКДаннымРасширеннаяПодсказка</name>
                   <id>29</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -490,11 +354,6 @@
                 <contextMenu>
                   <name>ПараметрыСостоянияПутьКДаннымКонтекстноеМеню</name>
                   <id>28</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -523,11 +382,6 @@
               <extendedTooltip>
                 <name>ПараметрыСостоянияГруппаРасширеннаяПодсказка</name>
                 <id>196</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -554,11 +408,6 @@
               <extendedTooltip>
                 <name>ПараметрыСостоянияИДРасширеннаяПодсказка</name>
                 <id>32</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -569,11 +418,6 @@
               <contextMenu>
                 <name>ПараметрыСостоянияИДКонтекстноеМеню</name>
                 <id>31</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -604,11 +448,6 @@
               <extendedTooltip>
                 <name>ПараметрыСостоянияВыражениеРасширеннаяПодсказка</name>
                 <id>157</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -619,11 +458,6 @@
               <contextMenu>
                 <name>ПараметрыСостоянияВыражениеКонтекстноеМеню</name>
                 <id>156</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -654,11 +488,6 @@
               <extendedTooltip>
                 <name>ПараметрыСостоянияНаКлиентеРасширеннаяПодсказка</name>
                 <id>160</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -669,11 +498,6 @@
               <contextMenu>
                 <name>ПараметрыСостоянияНаКлиентеКонтекстноеМеню</name>
                 <id>159</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>CheckBoxField</type>
@@ -683,34 +507,43 @@
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
             </items>
-            <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>ПараметрыСостоянияКоманднаяПанель</name>
               <id>10</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <horizontalAlign>Left</horizontalAlign>
-              <autoFill>true</autoFill>
-            </autoCommandBar>
-            <searchStringAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <name>ПараметрыСостоянияСтрокаПоиска</name>
-              <id>12</id>
-              <extendedTooltip>
-                <name>ПараметрыСостоянияСтрокаПоискаРасширеннаяПодсказка</name>
-                <id>14</id>
+              <items xsi:type="form:Button">
+                <name>КомандаСвязатьПараметры</name>
+                <id>176</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <extendedTooltip>
+                  <name>КомандаСвязатьПараметрыРасширеннаяПодсказка</name>
+                  <id>177</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.КомандаСвязатьПараметры</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <check>true</check>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <horizontalAlign>Left</horizontalAlign>
+            </autoCommandBar>
+            <searchStringAddition>
+              <name>ПараметрыСостоянияСтрокаПоиска</name>
+              <id>12</id>
+              <extendedTooltip>
+                <name>ПараметрыСостоянияСтрокаПоискаРасширеннаяПодсказка</name>
+                <id>14</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -721,34 +554,19 @@
               <contextMenu>
                 <name>ПараметрыСостоянияСтрокаПоискаКонтекстноеМеню</name>
                 <id>13</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ПараметрыСостоянияСтрокаПоиска</source>
+              <source>ПараметрыСостояния</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </searchStringAddition>
             <viewStatusAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ПараметрыСостоянияСостояниеПросмотра</name>
               <id>15</id>
               <extendedTooltip>
                 <name>ПараметрыСостоянияСостояниеПросмотраРасширеннаяПодсказка</name>
                 <id>17</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -759,35 +577,20 @@
               <contextMenu>
                 <name>ПараметрыСостоянияСостояниеПросмотраКонтекстноеМеню</name>
                 <id>16</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ПараметрыСостоянияСостояниеПросмотра</source>
+              <source>ПараметрыСостояния</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ПараметрыСостоянияУправлениеПоиском</name>
               <id>18</id>
               <extendedTooltip>
                 <name>ПараметрыСостоянияУправлениеПоискомРасширеннаяПодсказка</name>
                 <id>20</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -798,15 +601,10 @@
               <contextMenu>
                 <name>ПараметрыСостоянияУправлениеПоискомКонтекстноеМеню</name>
                 <id>19</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ПараметрыСостоянияУправлениеПоиском</source>
+              <source>ПараметрыСостояния</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -814,11 +612,6 @@
             <extendedTooltip>
               <name>ПараметрыСостоянияРасширеннаяПодсказка</name>
               <id>11</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -829,11 +622,6 @@
             <contextMenu>
               <name>ПараметрыСостоянияКонтекстноеМеню</name>
               <id>9</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <readOnly>true</readOnly>
@@ -885,11 +673,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровНомерСтрокиРасширеннаяПодсказка</name>
                 <id>50</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -900,11 +683,6 @@
               <contextMenu>
                 <name>СвязиПараметровНомерСтрокиКонтекстноеМеню</name>
                 <id>49</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>LabelField</type>
@@ -930,11 +708,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровПараметрСостоянияРасширеннаяПодсказка</name>
                 <id>53</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -945,11 +718,6 @@
               <contextMenu>
                 <name>СвязиПараметровПараметрСостоянияКонтекстноеМеню</name>
                 <id>52</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -980,11 +748,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровПутьКДаннымРасширеннаяПодсказка</name>
                 <id>166</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -995,11 +758,6 @@
               <contextMenu>
                 <name>СвязиПараметровПутьКДаннымКонтекстноеМеню</name>
                 <id>165</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1030,11 +788,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровПараметрРасширеннаяПодсказка</name>
                 <id>56</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1045,11 +798,6 @@
               <contextMenu>
                 <name>СвязиПараметровПараметрКонтекстноеМеню</name>
                 <id>55</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1079,11 +827,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровИДПараметраСостоянияРасширеннаяПодсказка</name>
                 <id>59</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1094,11 +837,6 @@
               <contextMenu>
                 <name>СвязиПараметровИДПараметраСостоянияКонтекстноеМеню</name>
                 <id>58</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1129,11 +867,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровПараметрИспользованиеРасширеннаяПодсказка</name>
                 <id>192</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1144,11 +877,6 @@
               <contextMenu>
                 <name>СвязиПараметровПараметрИспользованиеКонтекстноеМеню</name>
                 <id>191</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1178,11 +906,6 @@
               <extendedTooltip>
                 <name>СвязиПараметровИДПараметраРасширеннаяПодсказка</name>
                 <id>62</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1193,11 +916,6 @@
               <contextMenu>
                 <name>СвязиПараметровИДПараметраКонтекстноеМеню</name>
                 <id>61</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1214,34 +932,42 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
-            <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>СвязиПараметровКоманднаяПанель</name>
               <id>37</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <horizontalAlign>Left</horizontalAlign>
-              <autoFill>true</autoFill>
-            </autoCommandBar>
-            <searchStringAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <name>СвязиПараметровСтрокаПоиска</name>
-              <id>39</id>
-              <extendedTooltip>
-                <name>СвязиПараметровСтрокаПоискаРасширеннаяПодсказка</name>
-                <id>41</id>
+              <items xsi:type="form:Button">
+                <name>КомандаНайтиПараметрСостояния</name>
+                <id>178</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <extendedTooltip>
+                  <name>КомандаНайтиПараметрСостоянияРасширеннаяПодсказка</name>
+                  <id>179</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.КомандаНайтиПараметрСостояния</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <horizontalAlign>Left</horizontalAlign>
+            </autoCommandBar>
+            <searchStringAddition>
+              <name>СвязиПараметровСтрокаПоиска</name>
+              <id>39</id>
+              <extendedTooltip>
+                <name>СвязиПараметровСтрокаПоискаРасширеннаяПодсказка</name>
+                <id>41</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1252,34 +978,19 @@
               <contextMenu>
                 <name>СвязиПараметровСтрокаПоискаКонтекстноеМеню</name>
                 <id>40</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>СвязиПараметровСтрокаПоиска</source>
+              <source>СвязиПараметров</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </searchStringAddition>
             <viewStatusAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>СвязиПараметровСостояниеПросмотра</name>
               <id>42</id>
               <extendedTooltip>
                 <name>СвязиПараметровСостояниеПросмотраРасширеннаяПодсказка</name>
                 <id>44</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1290,35 +1001,20 @@
               <contextMenu>
                 <name>СвязиПараметровСостояниеПросмотраКонтекстноеМеню</name>
                 <id>43</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>СвязиПараметровСостояниеПросмотра</source>
+              <source>СвязиПараметров</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>СвязиПараметровУправлениеПоиском</name>
               <id>45</id>
               <extendedTooltip>
                 <name>СвязиПараметровУправлениеПоискомРасширеннаяПодсказка</name>
                 <id>47</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1329,15 +1025,10 @@
               <contextMenu>
                 <name>СвязиПараметровУправлениеПоискомКонтекстноеМеню</name>
                 <id>46</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>СвязиПараметровУправлениеПоиском</source>
+              <source>СвязиПараметров</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1345,11 +1036,6 @@
             <extendedTooltip>
               <name>СвязиПараметровРасширеннаяПодсказка</name>
               <id>38</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1360,11 +1046,6 @@
             <contextMenu>
               <name>СвязиПараметровКонтекстноеМеню</name>
               <id>36</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <readOnly>true</readOnly>
@@ -1403,11 +1084,6 @@
           <extendedTooltip>
             <name>ГруппаПараметрыСостоянияРасширеннаяПодсказка</name>
             <id>136</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1439,11 +1115,6 @@
           <extendedTooltip>
             <name>ВыражениеРасширеннаяПодсказка</name>
             <id>163</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1454,11 +1125,6 @@
           <contextMenu>
             <name>ВыражениеКонтекстноеМеню</name>
             <id>162</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -1487,11 +1153,6 @@
         <extendedTooltip>
           <name>ГруппаПараметрыИЗависимостиРасширеннаяПодсказка</name>
           <id>187</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1527,11 +1188,6 @@
             <extendedTooltip>
               <name>КомандаСвязатьЭлементыРасширеннаяПодсказка</name>
               <id>185</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1557,11 +1213,6 @@
             <extendedTooltip>
               <name>КомандаНайтиЭлементФормыРасширеннаяПодсказка</name>
               <id>183</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1588,11 +1239,6 @@
           <extendedTooltip>
             <name>КоманднаяПанельЭлементыФормыРасширеннаяПодсказка</name>
             <id>181</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1633,11 +1279,6 @@
               <extendedTooltip>
                 <name>ЭлементыФормыНомерСтрокиРасширеннаяПодсказка</name>
                 <id>113</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1648,11 +1289,6 @@
               <contextMenu>
                 <name>ЭлементыФормыНомерСтрокиКонтекстноеМеню</name>
                 <id>112</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>LabelField</type>
@@ -1679,11 +1315,6 @@
               <extendedTooltip>
                 <name>ЭлементыФормыИмяРасширеннаяПодсказка</name>
                 <id>116</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1694,11 +1325,6 @@
               <contextMenu>
                 <name>ЭлементыФормыИмяКонтекстноеМеню</name>
                 <id>115</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1728,11 +1354,6 @@
               <extendedTooltip>
                 <name>ЭлементыФормыИДРасширеннаяПодсказка</name>
                 <id>132</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1743,11 +1364,6 @@
               <contextMenu>
                 <name>ЭлементыФормыИДКонтекстноеМеню</name>
                 <id>131</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1778,11 +1394,6 @@
               <extendedTooltip>
                 <name>ЭлементыФормыПараметрРасширеннаяПодсказка</name>
                 <id>119</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1793,11 +1404,6 @@
               <contextMenu>
                 <name>ЭлементыФормыПараметрКонтекстноеМеню</name>
                 <id>118</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1827,11 +1433,6 @@
               <extendedTooltip>
                 <name>ЭлементыФормыИДПараметраРасширеннаяПодсказка</name>
                 <id>129</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1842,11 +1443,6 @@
               <contextMenu>
                 <name>ЭлементыФормыИДПараметраКонтекстноеМеню</name>
                 <id>128</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -1867,30 +1463,15 @@
             <autoCommandBar>
               <name>ЭлементыФормыКоманднаяПанель</name>
               <id>100</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <horizontalAlign>Left</horizontalAlign>
               <autoFill>true</autoFill>
             </autoCommandBar>
             <searchStringAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ЭлементыФормыСтрокаПоиска</name>
               <id>102</id>
               <extendedTooltip>
                 <name>ЭлементыФормыСтрокаПоискаРасширеннаяПодсказка</name>
                 <id>104</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1901,34 +1482,19 @@
               <contextMenu>
                 <name>ЭлементыФормыСтрокаПоискаКонтекстноеМеню</name>
                 <id>103</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ЭлементыФормыСтрокаПоиска</source>
+              <source>ЭлементыФормы</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </searchStringAddition>
             <viewStatusAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ЭлементыФормыСостояниеПросмотра</name>
               <id>105</id>
               <extendedTooltip>
                 <name>ЭлементыФормыСостояниеПросмотраРасширеннаяПодсказка</name>
                 <id>107</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1939,35 +1505,20 @@
               <contextMenu>
                 <name>ЭлементыФормыСостояниеПросмотраКонтекстноеМеню</name>
                 <id>106</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ЭлементыФормыСостояниеПросмотра</source>
+              <source>ЭлементыФормы</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ЭлементыФормыУправлениеПоиском</name>
               <id>108</id>
               <extendedTooltip>
                 <name>ЭлементыФормыУправлениеПоискомРасширеннаяПодсказка</name>
                 <id>110</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1978,15 +1529,10 @@
               <contextMenu>
                 <name>ЭлементыФормыУправлениеПоискомКонтекстноеМеню</name>
                 <id>109</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ЭлементыФормыУправлениеПоиском</source>
+              <source>ЭлементыФормы</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1994,11 +1540,6 @@
             <extendedTooltip>
               <name>ЭлементыФормыРасширеннаяПодсказка</name>
               <id>101</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2009,11 +1550,6 @@
             <contextMenu>
               <name>ЭлементыФормыКонтекстноеМеню</name>
               <id>99</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <readOnly>true</readOnly>
@@ -2065,11 +1601,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовНомерСтрокиРасширеннаяПодсказка</name>
                 <id>80</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2080,11 +1611,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовНомерСтрокиКонтекстноеМеню</name>
                 <id>79</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>LabelField</type>
@@ -2110,11 +1636,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовЭлементРасширеннаяПодсказка</name>
                 <id>83</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2125,11 +1646,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовЭлементКонтекстноеМеню</name>
                 <id>82</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -2159,11 +1675,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовИДЭлементаРасширеннаяПодсказка</name>
                 <id>86</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2174,11 +1685,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовИДЭлементаКонтекстноеМеню</name>
                 <id>85</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -2209,11 +1715,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовСвойствоРасширеннаяПодсказка</name>
                 <id>95</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2224,11 +1725,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовСвойствоКонтекстноеМеню</name>
                 <id>94</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -2259,11 +1755,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовПараметрРасширеннаяПодсказка</name>
                 <id>89</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2274,11 +1765,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовПараметрКонтекстноеМеню</name>
                 <id>88</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -2308,11 +1794,6 @@
               <extendedTooltip>
                 <name>ПараметрыЭлементовИДПараметраРасширеннаяПодсказка</name>
                 <id>92</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2323,11 +1804,6 @@
               <contextMenu>
                 <name>ПараметрыЭлементовИДПараметраКонтекстноеМеню</name>
                 <id>91</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -2348,30 +1824,15 @@
             <autoCommandBar>
               <name>ПараметрыЭлементовКоманднаяПанель</name>
               <id>67</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <horizontalAlign>Left</horizontalAlign>
               <autoFill>true</autoFill>
             </autoCommandBar>
             <searchStringAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ПараметрыЭлементовСтрокаПоиска</name>
               <id>69</id>
               <extendedTooltip>
                 <name>ПараметрыЭлементовСтрокаПоискаРасширеннаяПодсказка</name>
                 <id>71</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2382,34 +1843,19 @@
               <contextMenu>
                 <name>ПараметрыЭлементовСтрокаПоискаКонтекстноеМеню</name>
                 <id>70</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ПараметрыЭлементовСтрокаПоиска</source>
+              <source>ПараметрыЭлементов</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </searchStringAddition>
             <viewStatusAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ПараметрыЭлементовСостояниеПросмотра</name>
               <id>72</id>
               <extendedTooltip>
                 <name>ПараметрыЭлементовСостояниеПросмотраРасширеннаяПодсказка</name>
                 <id>74</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2420,35 +1866,20 @@
               <contextMenu>
                 <name>ПараметрыЭлементовСостояниеПросмотраКонтекстноеМеню</name>
                 <id>73</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ПараметрыЭлементовСостояниеПросмотра</source>
+              <source>ПараметрыЭлементов</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </viewStatusAddition>
             <searchControlAddition>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <name>ПараметрыЭлементовУправлениеПоиском</name>
               <id>75</id>
               <extendedTooltip>
                 <name>ПараметрыЭлементовУправлениеПоискомРасширеннаяПодсказка</name>
                 <id>77</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2459,15 +1890,10 @@
               <contextMenu>
                 <name>ПараметрыЭлементовУправлениеПоискомКонтекстноеМеню</name>
                 <id>76</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ПараметрыЭлементовУправлениеПоиском</source>
+              <source>ПараметрыЭлементов</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2475,11 +1901,6 @@
             <extendedTooltip>
               <name>ПараметрыЭлементовРасширеннаяПодсказка</name>
               <id>68</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2490,11 +1911,6 @@
             <contextMenu>
               <name>ПараметрыЭлементовКонтекстноеМеню</name>
               <id>66</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
             <readOnly>true</readOnly>
@@ -2533,11 +1949,6 @@
           <extendedTooltip>
             <name>ГруппаЭлементыФормыРасширеннаяПодсказка</name>
             <id>138</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2567,11 +1978,6 @@
         <extendedTooltip>
           <name>ГруппаЭлементыИПараметрыРасширеннаяПодсказка</name>
           <id>189</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2602,11 +2008,6 @@
       <extendedTooltip>
         <name>ГруппаПараметрыРасширеннаяПодсказка</name>
         <id>134</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2641,11 +2042,6 @@
           <extendedTooltip>
             <name>КомандаОбновитьГрафЗависимостейРасширеннаяПодсказка</name>
             <id>152</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2672,11 +2068,6 @@
           <extendedTooltip>
             <name>КомандаПоказатьТекстDOTРасширеннаяПодсказка</name>
             <id>168</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2703,11 +2094,6 @@
           <extendedTooltip>
             <name>КомандаСохранитьSVGРасширеннаяПодсказка</name>
             <id>170</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2731,11 +2117,6 @@
         <extendedTooltip>
           <name>ГруппаКоманднаяПанельГрафЗависимостейРасширеннаяПодсказка</name>
           <id>154</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2768,11 +2149,6 @@
         <extendedTooltip>
           <name>ТекстHTMLОтображенияГрафаРасширеннаяПодсказка</name>
           <id>148</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2783,11 +2159,6 @@
         <contextMenu>
           <name>ТекстHTMLОтображенияГрафаКонтекстноеМеню</name>
           <id>147</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>HTMLDocumentField</type>
@@ -2816,11 +2187,6 @@
       <extendedTooltip>
         <name>ГруппаГрафРасширеннаяПодсказка</name>
         <id>142</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2851,11 +2217,6 @@
     <extendedTooltip>
       <name>ГруппаПанельРасширеннаяПодсказка</name>
       <id>140</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2877,11 +2238,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -3181,42 +2537,42 @@
     <name>КомандаСвязатьПараметры</name>
     <title>
       <key>ru</key>
-      <value>Команда связать параметры</value>
+      <value>Связать параметры</value>
     </title>
     <id>5</id>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.KASLСинхронизацияДанныхВыгрузить</picture>
+      <picture>StdPicture.ShowInList</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаСинхронизироватьПараметры</name>
       </handler>
     </action>
-    <representation>Picture</representation>
+    <representation>Text</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаНайтиПараметрСостояния</name>
     <title>
       <key>ru</key>
-      <value>Команда найти параметр состояния</value>
+      <value>Найти параметр состояния</value>
     </title>
     <id>6</id>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.MoveLeft</picture>
+      <picture>StdPicture.Back</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаНайтиСоответствиеПараметра</name>
       </handler>
     </action>
-    <representation>Picture</representation>
+    <representation>Text</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3250,7 +2606,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.KASLСинхронизацияДанныхВыгрузить</picture>
+      <picture>StdPicture.ShowInList</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -3263,7 +2619,7 @@
     <name>КомандаТест</name>
     <title>
       <key>ru</key>
-      <value>Команда тест</value>
+      <value>Тест</value>
     </title>
     <id>9</id>
     <use>

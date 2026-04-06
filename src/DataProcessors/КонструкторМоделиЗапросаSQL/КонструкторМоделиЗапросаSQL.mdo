@@ -104,7 +104,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>16</length>
+        <length>40</length>
       </stringQualifiers>
     </type>
     <passwordMode>true</passwordMode>
@@ -169,6 +169,18 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0c4723e-383b-4b05-a986-99031047b9c0">
+    <name>ПривестиУИНКСтроке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Привести УИНКСтроке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

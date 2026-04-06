@@ -9,6 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <subsystems>АТДМассив</subsystems>
   <subsystems>ВыборДанных</subsystems>
+  <subsystems>Компайлеры</subsystems>
   <subsystems>Конструкторы</subsystems>
   <subsystems>Модели</subsystems>
   <subsystems>ОбщегоНазначения</subsystems>

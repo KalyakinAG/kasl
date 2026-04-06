@@ -12,25 +12,40 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.КонструкторМоделиЗапроса.Form.Форма</defaultForm>
   <attributes uuid="02999a4b-52b7-4bbb-8a69-db69376d3ae7">
+    <name>ИсходныйТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный текст запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5872738a-aa79-4c0f-a87a-620f79408b14">
+    <name>Код1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код1 С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffcd0c74-f3aa-48a2-8ba5-d39491a4904a">
     <name>ТекстЗапроса</name>
     <synonym>
       <key>ru</key>
       <value>Текст запроса</value>
     </synonym>
     <type>
-      <types>TextDocument</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="5872738a-aa79-4c0f-a87a-620f79408b14">
-    <name>ТекстМодели</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст модели</value>
-    </synonym>
-    <type>
-      <types>TextDocument</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

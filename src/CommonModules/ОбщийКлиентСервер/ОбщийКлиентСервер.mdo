@@ -3,7 +3,7 @@
   <name>ОбщийКлиентСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Общего назначения KASL (клиент/сервер)</value>
+    <value>Общий клиент сервер</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
