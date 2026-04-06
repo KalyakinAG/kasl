@@ -6,6 +6,9 @@
     <value>KASL</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+  </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9fefcc22-4def-4570-80f8-07e44fa227b0"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d020c444-4b51-450d-b84b-c7aea0901ebc"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="95f750ab-1ad8-4599-ab32-b92047a399b2"/>
@@ -19,6 +22,12 @@
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>https://github.com/KalyakinAG/kasl</vendor>
+  <languages uuid="41bc4f23-6e05-47c5-811f-11e6de4606a8">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
   <subsystems>Subsystem.KASL</subsystems>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <commonModules>CommonModule.КонструкторМоделиСостоянияМодель</commonModules>
