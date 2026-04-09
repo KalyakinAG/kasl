@@ -1,4 +1,3 @@
 # kasl
-Библиотека подсистем КА
 
-KASL - библиотека подсистем КА / KA Subsystem Library
+KASL - KA Subsystem Library / библиотека подсистем КА (БКА_)
