@@ -23,7 +23,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/KalyakinAG/kasl</vendor>
-  <version>2.0.0.7</version>
+  <version>2.0.0.8</version>
   <languages uuid="41bc4f23-6e05-47c5-811f-11e6de4606a8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -61,7 +61,6 @@
   <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторМоделиСостояния</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторСхемыЗапроса</dataProcessors>
-  <dataProcessors>DataProcessor.МодельЗапроса</dataProcessors>
   <dataProcessors>DataProcessor.МодельЗапроса_1_2</dataProcessors>
   <dataProcessors>DataProcessor.МодельЗапросаSQL</dataProcessors>
   <dataProcessors>DataProcessor.МодельМакетаКомпоновкиДанных</dataProcessors>
@@ -73,6 +72,7 @@
   <dataProcessors>DataProcessor.МодельСхемыКомпоновкиДанных</dataProcessors>
   <dataProcessors>DataProcessor.МодельТаблицы</dataProcessors>
   <dataProcessors>DataProcessor.МодельТекста</dataProcessors>
+  <dataProcessors>DataProcessor.МодельЗапроса</dataProcessors>
   <dataProcessors>DataProcessor.ТекстЗапросаВМодельЗапроса</dataProcessors>
   <dataProcessors>DataProcessor.ТекстЗапросаВРаботуСМодельюЗапроса</dataProcessors>
   <dataProcessors>DataProcessor.ТекстЗапросаВРаботуСоСхемойЗапроса</dataProcessors>
