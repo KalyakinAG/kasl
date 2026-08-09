@@ -30,9 +30,9 @@
     <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
   <subsystems>Subsystem.KASL</subsystems>
-  <commonModules>CommonModule.Общий</commonModules>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <commonModules>CommonModule.КонструкторМоделиСостоянияМодель</commonModules>
+  <commonModules>CommonModule.Общий</commonModules>
   <commonModules>CommonModule.ОбщийКлиент</commonModules>
   <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийПовтИсп</commonModules>
@@ -42,17 +42,18 @@
   <commonModules>CommonModule.РаботаСИтератором</commonModules>
   <commonModules>CommonModule.РаботаСКоллекцией</commonModules>
   <commonModules>CommonModule.РаботаСМассивом</commonModules>
+  <commonModules>CommonModule.РаботаСМножеством</commonModules>
   <commonModules>CommonModule.РаботаСМодельюЗапроса</commonModules>
   <commonModules>CommonModule.РаботаСМодельюОбъекта</commonModules>
   <commonModules>CommonModule.РаботаСМодельюОбъектаКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСМодельюСостояния</commonModules>
+  <commonModules>CommonModule.РаботаСМодельюСостоянияКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСМодельюТекста</commonModules>
   <commonModules>CommonModule.РаботаСМодельюФормы</commonModules>
   <commonModules>CommonModule.РаботаСМодельюФормыКлиент</commonModules>
   <commonModules>CommonModule.РаботаСМодельюФормыКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСхемойЗапроса</commonModules>
   <commonModules>CommonModule.РаботаСОчередью</commonModules>
-  <commonModules>CommonModule.РаботаСМножеством</commonModules>
   <definedTypes>DefinedType.МетаданныеСОграничениемВыбора</definedTypes>
   <dataProcessors>DataProcessor.АТДМассив</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапроса</dataProcessors>
