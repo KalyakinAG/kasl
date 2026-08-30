@@ -3,15 +3,10 @@
   <producedTypes>
     <containerType typeId="0ddb650c-8aa3-422f-bcea-be29992714f3" valueTypeId="7c972dbb-8756-45d3-a7b9-eccdfa8ad5c6"/>
   </producedTypes>
-  <name>МетаданныеСОграничениемВыбора</name>
+  <name>ОбъектыДанныхВыбора</name>
   <synonym>
     <key>ru</key>
-    <value>Метаданные с ограничением выбора</value>
+    <value>Объекты данных выбора</value>
   </synonym>
-  <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
-  </type>
+  <type/>
 </mdclass:DefinedType>

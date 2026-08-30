@@ -13,5 +13,6 @@
   <content>CommonModule.РаботаСМодельюОбъектаКлиентСервер</content>
   <content>CommonModule.РаботаСМодельюСостояния</content>
   <content>CommonModule.РаботаСМодельюФормыКлиент</content>
+  <content>CommonModule.РаботаСМодельюСостоянияКлиентСервер</content>
   <parentSubsystem>Subsystem.KASL.Subsystem.Модели</parentSubsystem>
 </mdclass:Subsystem>

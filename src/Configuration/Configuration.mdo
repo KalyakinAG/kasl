@@ -54,7 +54,8 @@
   <commonModules>CommonModule.РаботаСМодельюФормыКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСхемойЗапроса</commonModules>
   <commonModules>CommonModule.РаботаСОчередью</commonModules>
-  <definedTypes>DefinedType.МетаданныеСОграничениемВыбора</definedTypes>
+  <commonModules>CommonModule.РаботаСДаннымиВыбораПереопределяемый</commonModules>
+  <definedTypes>DefinedType.ОбъектыДанныхВыбора</definedTypes>
   <dataProcessors>DataProcessor.АТДМассив</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапроса</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>

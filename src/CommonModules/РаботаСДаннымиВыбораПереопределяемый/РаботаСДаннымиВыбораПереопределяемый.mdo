@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc6f586b-8063-4d6e-bec2-db441e0342b5">
+  <name>РаботаСДаннымиВыбораПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с данными выбора переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
