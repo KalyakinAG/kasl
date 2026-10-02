@@ -23,7 +23,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/KalyakinAG/kasl</vendor>
-  <version>2.0.0.15</version>
+  <version>3.0.0.1</version>
   <languages uuid="41bc4f23-6e05-47c5-811f-11e6de4606a8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -38,23 +38,23 @@
   <commonModules>CommonModule.ОбщийПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаС_ADODB</commonModules>
   <commonModules>CommonModule.РаботаСДаннымиВыбора</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиВыбораПереопределяемый</commonModules>
   <commonModules>CommonModule.РаботаСДаннымиЗаполнения</commonModules>
   <commonModules>CommonModule.РаботаСИтератором</commonModules>
   <commonModules>CommonModule.РаботаСКоллекцией</commonModules>
   <commonModules>CommonModule.РаботаСМассивом</commonModules>
   <commonModules>CommonModule.РаботаСМножеством</commonModules>
   <commonModules>CommonModule.РаботаСМодельюЗапроса</commonModules>
-  <commonModules>CommonModule.РаботаСМодельюОбъекта</commonModules>
-  <commonModules>CommonModule.РаботаСМодельюОбъектаКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСМодельюСостояния</commonModules>
   <commonModules>CommonModule.РаботаСМодельюСостоянияКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСМодельюТекста</commonModules>
-  <commonModules>CommonModule.РаботаСМодельюФормы</commonModules>
-  <commonModules>CommonModule.РаботаСМодельюФормыКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСМодельюФормыКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСОбъектом</commonModules>
+  <commonModules>CommonModule.РаботаСОбъектомКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСоСхемойЗапроса</commonModules>
   <commonModules>CommonModule.РаботаСОчередью</commonModules>
-  <commonModules>CommonModule.РаботаСДаннымиВыбораПереопределяемый</commonModules>
+  <commonModules>CommonModule.РаботаСФормой</commonModules>
+  <commonModules>CommonModule.РаботаСФормойКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСФормойКлиентСервер</commonModules>
   <definedTypes>DefinedType.ОбъектыДанныхВыбора</definedTypes>
   <dataProcessors>DataProcessor.АТДМассив</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапроса</dataProcessors>

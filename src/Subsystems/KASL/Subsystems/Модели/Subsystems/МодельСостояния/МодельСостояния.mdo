@@ -7,12 +7,12 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>DataProcessor.МодельСостояния</content>
-  <content>CommonModule.РаботаСМодельюОбъекта</content>
-  <content>CommonModule.РаботаСМодельюФормыКлиентСервер</content>
-  <content>CommonModule.РаботаСМодельюФормы</content>
-  <content>CommonModule.РаботаСМодельюОбъектаКлиентСервер</content>
+  <content>CommonModule.РаботаСОбъектом</content>
+  <content>CommonModule.РаботаСФормойКлиентСервер</content>
+  <content>CommonModule.РаботаСФормой</content>
+  <content>CommonModule.РаботаСОбъектомКлиентСервер</content>
   <content>CommonModule.РаботаСМодельюСостояния</content>
-  <content>CommonModule.РаботаСМодельюФормыКлиент</content>
+  <content>CommonModule.РаботаСФормойКлиент</content>
   <content>CommonModule.РаботаСМодельюСостоянияКлиентСервер</content>
   <parentSubsystem>Subsystem.KASL.Subsystem.Модели</parentSubsystem>
 </mdclass:Subsystem>
